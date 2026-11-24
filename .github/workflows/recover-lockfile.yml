@@ -1,0 +1,30 @@
+name: Recover npm lockfile on Linux
+on:
+  push:
+    branches: [fix/vercel-linux-lockfile]
+permissions:
+  contents: read
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Regenerate lockfile using npm registry
+        run: |
+          node --version
+          npm --version
+          npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+          git diff --stat -- package-lock.json
+          node -e 'const p=require("./package-lock.json").packages; for(const k of ["node_modules/@emnapi/core","node_modules/@emnapi/runtime"]) console.log(k,JSON.stringify(p[k]));'
+          git diff -- package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm test
+      - run: npm run build
