@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /workshops/checkout/
+Sitemap: https://atlashub.si/sitemap.xml

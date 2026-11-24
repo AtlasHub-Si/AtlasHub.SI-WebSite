@@ -1,0 +1,142 @@
+[
+  {
+    "path": "public/v2/clara-avatar.webp",
+    "bytes": 14686,
+    "sha256": "c1ea5a0fc7ea66e398c60cc38b39219966e88d91e2eff795ffb9f5633caa4643"
+  },
+  {
+    "path": "public/v2/clara-portrait.webp",
+    "bytes": 63840,
+    "sha256": "4a4da6b7ca8a1539ddb70149cdc8220dabc3ab491d0202ae511648cd10d60f44"
+  },
+  {
+    "path": "public/v2/diana-avatar.webp",
+    "bytes": 31530,
+    "sha256": "8d3062fea922699746a8beaa59f2b152da46bf77ececaef3afaec8b69f54bf29"
+  },
+  {
+    "path": "public/v2/mascots/analyst-640.webp",
+    "bytes": 136134,
+    "sha256": "74508df8efd44e0f3a44db5e351412017eac1e7d580bd8e387631a9d2d81638f"
+  },
+  {
+    "path": "public/v2/mascots/analyst-960.webp",
+    "bytes": 283676,
+    "sha256": "19a8377529488a8b81327aca84476389040ed1a74966a084074206aa40dc0f60"
+  },
+  {
+    "path": "public/v2/mascots/builder-640.webp",
+    "bytes": 130276,
+    "sha256": "a3ce9c9e8eaba05623996e560fa272629f241df0688702ea87a4f8651697d995"
+  },
+  {
+    "path": "public/v2/mascots/builder-960.webp",
+    "bytes": 265418,
+    "sha256": "42e8b4c4419641b49be4b2e92d1d70109bd8372606aed916e1965a14a539d466"
+  },
+  {
+    "path": "public/v2/mascots/creator-640.webp",
+    "bytes": 131214,
+    "sha256": "f05f1e16221185fdad533ee97943efa17415bb83c3863ccafc9434250c7031d4"
+  },
+  {
+    "path": "public/v2/mascots/creator-960.webp",
+    "bytes": 280498,
+    "sha256": "e4b933ed20f6456d5c757c9f0039e9a8469e63748b4eef98861866a2daf1016b"
+  },
+  {
+    "path": "public/v2/mascots/flow-640.webp",
+    "bytes": 131278,
+    "sha256": "7f5efc5fec1a8f6033f8bdd41afeab94bfe4b91774551daff351d057ae57d786"
+  },
+  {
+    "path": "public/v2/mascots/flow-960.webp",
+    "bytes": 272648,
+    "sha256": "c975da6fdb9d721e39f52066f8e02c5d115d081e0d77a0a7438632e7b4b3f48c"
+  },
+  {
+    "path": "public/v2/mascots/guide-640.webp",
+    "bytes": 170146,
+    "sha256": "94143a12fd02f76b322385ff28c542f934e11903624aef7cfc206a3c52255d55"
+  },
+  {
+    "path": "public/v2/mascots/guide-960.webp",
+    "bytes": 365914,
+    "sha256": "820fe50f24379c76b10e711d856d567b056967069264af112fabd2a8d95d470c"
+  },
+  {
+    "path": "public/v2/mascots/shield-640.webp",
+    "bytes": 124818,
+    "sha256": "c0bd9dca0a0327bb59ec77c7da1b84790de685552eac3ca31cddac3366a2c5dc"
+  },
+  {
+    "path": "public/v2/mascots/shield-960.webp",
+    "bytes": 258030,
+    "sha256": "8b9044e5ba4c5b9ff20bbe056143626df34c53af4af57c7a25691c352d5642c3"
+  },
+  {
+    "path": "public/v2/scenes/club-learner.webp",
+    "bytes": 73696,
+    "sha256": "955773733001da614e80efb1a70a06fe80a0344c272b809b76398b0e3939118a"
+  },
+  {
+    "path": "public/v2/scenes/hero-cosmos.webp",
+    "bytes": 25902,
+    "sha256": "fdd533c35d11181af45e2ff99399e98ca74727e340519cc2e70eebeaf0ddf084"
+  },
+  {
+    "path": "public/v2/scenes/hero-earth.webp",
+    "bytes": 143422,
+    "sha256": "94131002024cb2016043ad767e75f668750c378b62c102048003f6967d51d3bf"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlasbot-bg-640.webp",
+    "bytes": 7634,
+    "sha256": "969039b3f3ea9cc9c3e866a2390ba86d0d4c2d5df1eb8ee1f8ef245034d5c20a"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlasbot-bg.webp",
+    "bytes": 23102,
+    "sha256": "c1a7c1c2ca666616c148ead2f56757dfad642693dd5f360ab95e5cbd1e65928e"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlascortex-640.webp",
+    "bytes": 27960,
+    "sha256": "f2590aa9bb3fca92a8698531ecbb7060785b93ec82d508ff5a5a4919ade15e15"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlascortex.webp",
+    "bytes": 73784,
+    "sha256": "ed51367be86c86dd798daff618a097bb12190de028bd9ca54ef3a923c66d2fb5"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlashq-640.webp",
+    "bytes": 43814,
+    "sha256": "d502fda348137c4f456a11303cf2b8b368934ced3f0f6301a0ea193604baf8f6"
+  },
+  {
+    "path": "public/v2/scenes/portal-atlashq.webp",
+    "bytes": 122028,
+    "sha256": "2dbe7757589dcaeac927f3d7ff85e93507a06255df0fe4a71ebf0dd14a909124"
+  },
+  {
+    "path": "public/v2/scenes/portal-clubatlas-640.webp",
+    "bytes": 39886,
+    "sha256": "ef806cde7e1038aba61ff1a3e033983fd561a9e7dd2db1435f934b848a170e88"
+  },
+  {
+    "path": "public/v2/scenes/portal-clubatlas.webp",
+    "bytes": 105674,
+    "sha256": "1585dec49df7e3ff9c77a6c1c886f630c2326dc3fbb8bbd511aad3e9af48b636"
+  },
+  {
+    "path": "public/v2/scenes/portal-gwd-640.webp",
+    "bytes": 8210,
+    "sha256": "d46c5abbebcaf39d53f2749c0b53ae42478827b7b272b5955a77ede47e93995b"
+  },
+  {
+    "path": "public/v2/scenes/portal-gwd.webp",
+    "bytes": 21458,
+    "sha256": "b7101806420173f2885e696a45ee1de73026dd2d95aeb4303649dee258c4f264"
+  }
+]

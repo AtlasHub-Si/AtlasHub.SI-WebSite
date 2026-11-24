@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-11-24T14:14:09.925Z",
+  "totalRoutesAudited": 121,
+  "cwv": {
+    "lcpMs": 4396,
+    "cls": 0.0119,
+    "inpMs": 4264,
+    "jsProcessingMs": 204,
+    "interactionEvents": [
+      {
+        "name": "click",
+        "dur": 1584,
+        "proc": 50,
+        "target": "Ativar movimento"
+      },
+      {
+        "name": "click",
+        "dur": 776,
+        "proc": 52,
+        "target": "Reduzir movimento"
+      },
+      {
+        "name": "click",
+        "dur": 3392,
+        "proc": 204,
+        "target": "AtlasHQUm espaço de trabalho ond"
+      },
+      {
+        "name": "click",
+        "dur": 4032,
+        "proc": 8,
+        "target": "Agentes + NeX"
+      },
+      {
+        "name": "click",
+        "dur": 4264,
+        "proc": 14,
+        "target": "Aprovação humana"
+      },
+      {
+        "name": "click",
+        "dur": 2352,
+        "proc": 3,
+        "target": ""
+      }
+    ]
+  },
+  "swiftshaderTelemetry": {
+    "coldLcpMs": 8372,
+    "cls": 0.0017,
+    "jsProcessingMs": 166
+  },
+  "portalsMetrics": {
+    "atlashq": {
+      "exitMode": "escape",
+      "scrollBefore": 194,
+      "scrollAfter": 194,
+      "clickWallMs": 1158
+    },
+    "atlasbot": {
+      "exitMode": "back",
+      "scrollBefore": 194,
+      "scrollAfter": 194,
+      "clickWallMs": 1518
+    },
+    "club-atlas": {
+      "exitMode": "escape",
+      "scrollBefore": 194,
+      "scrollAfter": 194,
+      "clickWallMs": 2098
+    },
+    "atlascortex": {
+      "exitMode": "escape",
+      "scrollBefore": 194,
+      "scrollAfter": 194,
+      "clickWallMs": 2208
+    },
+    "gwd": {
+      "exitMode": "back",
+      "scrollBefore": 194,
+      "scrollAfter": 194,
+      "clickWallMs": 1600
+    }
+  },
+  "screenshotsCaptured": [
+    "01-home-hero-pt-desktop-1440.png",
+    "02-home-full-pt-desktop-1440.png",
+    "03-home-en-desktop-1440.png",
+    "04-home-fr-desktop-1440.png",
+    "05-home-es-desktop-1440.png",
+    "06-portal-atlashq-open-1440.png",
+    "07-portal-atlasbot-open-1440.png",
+    "08-portal-clubatlas-open-1440.png",
+    "09-portal-atlascortex-galaxy-1440.png",
+    "10-portal-gwd-open-1440.png",
+    "11-pearl-consulting-methodology-1440.png",
+    "12-clara-concierge-open-1440.png",
+    "13-footer-institutional-1440.png",
+    "14-ecosystem-page-1440.png",
+    "15-multiverse-experience-1440.png",
+    "16-home-mobile-390.png",
+    "17-portal-mobile-390.png",
+    "18-footer-mobile-390.png",
+    "19-reduced-motion-1440.png"
+  ],
+  "videosGenerated": [
+    {
+      "file": "01-hero-and-particles.mp4",
+      "bytes": 1078964
+    },
+    {
+      "file": "02-portal-dive-atlashq-and-cortex.mp4",
+      "bytes": 1217323
+    },
+    {
+      "file": "03-clara-and-multilingual-navigation.mp4",
+      "bytes": 1207226
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "cspViolations": [],
+  "assertions": [
+    "LCP budget exceeded: 4396ms > 2500ms",
+    "INP budget exceeded: 4264ms > 200ms"
+  ]
+}

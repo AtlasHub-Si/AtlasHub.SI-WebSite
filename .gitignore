@@ -1,0 +1,12 @@
+.env
+.env.local
+.env.*
+!.env.example
+.vscode/
+*.log
+node_modules/
+
+.next/
+out/
+.vercel/
+*.tsbuildinfo

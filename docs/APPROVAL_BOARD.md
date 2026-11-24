@@ -1,0 +1,14 @@
+# AtlasHub.SI V2.0 — Pre-Production Approval Board
+
+Track all brand, legal, operational, and external integration sign-offs required before authorizing production cutover on `atlashub.si`.
+
+| ID | Approval Item | Current V2 State | Owner / Required Proof | Status |
+| --- | --- | --- | --- | --- |
+| `APR-01` | Final Institutional Master SVG (`AtlasPrismMark`) | Geometric prismatic `A` implemented in `components/brand/AtlasPrismMark.tsx`; AtlasBot mascot strictly isolated to `AtlasBotScene` | Brand / Design sign-off against master vector spec | Pending Sign-off |
+| `APR-02` | Homepage & 5-Portal Visual Sign-off | Desktop `1440×900` and Mobile `390×844` screenshots verified across `pt`, `en`, `fr`, `es` in `docs/evidence/` | Executive / Product review of `docs/VISUAL_COMPARISON.md` | Pending Sign-off |
+| `APR-03` | UK Legal Entities Mapping (`17379237` vs `17401190`) | `ATLASHUB DIGITAL LTD` (No. `17379237`) and `Atlas Global Tech Ltd` (ref. `17401190`) disclosed separately in footer and `/{locale}/legal` without conflation | Legal counsel sign-off assigning IP owner, operator, and data controller per service | Pending Legal Confirmation |
+| `APR-04` | Verified Partnerships & Startup Programs | `verified_partnerships` in `lib/v2/technology-registry.ts` intentionally empty (`[]`); `AWS Activate` marked `pending`; `Google Cloud & NVIDIA Developer Community` labeled `community_member` | Signed partner agreements, brand authorization proofs, and AWS Activate confirmation | Pending Written Proof |
+| `APR-05` | Corporate Social Handles & Mailboxes | Only `GitHub` (`https://github.com/AtlasHub-Si`) and `WhatsApp` (`+55 62 99190-3462`) active; 9 social networks `pending`; `legal@atlas-si.com` & `support@atlashub.si` marked subject to mailbox confirmation | Verified corporate account URLs + live mailbox delivery tests | Pending Verification |
+| `APR-06` | External Lead Webhooks & CRM Integration | `/api/lead` and `/api/fr/lead` validate strictly and fail closed (`503`) unless `LEAD_WEBHOOK_URL` / `LEAD_WEBHOOK_TOKEN` (and `FR_LEAD_*`) are configured; UI falls back to official WhatsApp handoff | Staging E2E verification with live CRM webhook returning HTTP `202 { id, route: "human" }` | Pending Ops Config |
+| `APR-07` | FCA / Investor Communications Review | `/{locale}/investors` strictly limited to informational institutional relations with zero return promises or `"Invest now"` CTAs | UK / jurisdictional regulatory review prior to publishing any fundraising materials | Hold / Informational Only |
+| `APR-08` | Production Cutover & DNS/Domain Authorization | Build, tests, security headers, `robots.txt`, and `sitemap.xml` verified locally on branch `feat/atlashub-v2-antigravity-rebuild` | Release manager approval to merge and deploy to production Vercel / Cloudflare DNS | Pending Release Gate |

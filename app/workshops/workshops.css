@@ -1,0 +1,38 @@
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.clara-contact label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--atlas-silver);
+  margin-block: 0.875rem;
+}
+
+.clara-contact input:not([type="checkbox"]),
+.clara-contact select {
+  display: block;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem 0.875rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--atlas-border-strong);
+  background: var(--atlas-bg);
+  color: var(--atlas-ink);
+}
+
+.clara-contact .consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  line-height: 1.5;
+}
+
+.clara-contact .consent input[type="checkbox"] {
+  margin-top: 0.2rem;
+  accent-color: var(--atlas-gold);
+}
